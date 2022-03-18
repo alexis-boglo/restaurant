@@ -1,0 +1,1759 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('images/mets20.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.menu, h1,h2,h3,label,button{
+    font-family: 'Aladin', cursive;
+    font-weight: 400;
+}
+.p{
+    font-family: 'Aleo', serif;
+}
+
+/*HEADER*/
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.menu{
+    width: 150px;
+    height: 35px;
+    background-color: rgba(196, 196, 196, 0.7);
+    border-radius: 50px;
+    padding-top: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+header a{
+    color: black;
+    text-decoration: none;
+}
+#slogan{
+    background-color: rgba(196, 196, 196, 0.7);
+    width: 280px;
+    border-radius: 50px;
+}
+#slogan h2{
+    font-size: 2em;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#slogan p{
+    font-size: 1em;
+    color: black;
+    text-align: center;
+    font-style: italic;
+    margin-top: 0;
+    font-family: 'Aleo', serif;
+}
+#container_slogan{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 200px;
+    height: 300px;
+}
+
+
+/*PAGE RESTANT*/
+#end_page{
+    background-color: rgb(32, 26, 26);
+    margin: 0;
+    min-height: 500px;
+}
+.separation{
+    background-color: white;
+    height: 10px;
+    margin: 0;
+}
+/*SECTION DEINITION*/
+.container_definition{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 100%;
+}
+.container_definition a{
+    color: white;
+    text-decoration: none;
+}
+.definition1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/mets14.jpg');
+    background-size: cover;
+    height: 450px;
+    width: 600px;
+    border-radius: 50px;
+    border: black solid 5px;
+}
+.definition2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/mets1.jpg');
+    background-size: cover;
+    height: 450px;
+    width: 600px;
+    border-radius: 50px;
+    border: black solid 5px;
+}
+.definition1_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(196, 196, 196, 0.7);
+    border-radius: 50px;
+    height: 100px;
+    width: 420px;
+    text-align: center;
+}
+.definition1_title h1{
+    color: black;
+    font-size: 2em;
+}
+.definition2_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(196, 196, 196, 0.6);
+    border-radius: 50px;
+    height: 100px;
+    width: 420px;
+    text-align: center;
+}
+.definition2_title h1{
+    color: black;
+    font-size: 2em;
+}
+/*SECTION AUTHOR DESCRIPTION*/
+.container_auth_descrip{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 20px;
+    height: 450px;
+    width: 100%;
+}
+.author_description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 600px;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Aleo', serif;
+}
+.author_image{
+    height: 300px;
+    width: 300px;
+    background-image: url('images/thierry1.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    background-position-x: -50px;
+}
+
+
+/*PAGE SIGNIN*/
+.signin_container{
+    display: flex;
+    width: 90%;
+    height: 1000px;
+    margin: auto;
+    background-color: rgba(196, 196, 196, 0.4);
+    margin-top: 70px;
+    margin-bottom: 100px;
+    border-radius: 50px;
+}
+.signin_image{
+    width: 50%;
+    height: 100%;
+    background-image: url('images/mets6.jpg');
+    background-size: cover;
+    border-radius: 50px;
+}
+.signin_form{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 50px;
+}
+.signin_form h1{
+    font-size: 2em;
+}
+.signin_form p{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.signin_form input{
+    height: 60px;
+    width: 500px;
+    background-color: rgba(196, 196, 196, 0.3);
+    border-radius: 20px;
+    border: black solid 3px;
+    font-size: 1em;
+    text-align: center
+}
+.signin_form button{
+    height: 50px;
+    width: 200px;
+    background-color: rgba(196, 196, 196, 0.5);
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+span a{
+    color: rgb(0, 255, 219);
+    text-decoration: none;
+}
+
+/*PAGE SIGNUP*/
+.signup_container{
+    display: flex;
+    width: 90%;
+    height: 1000px;
+    margin: auto;
+    background-color: rgba(196, 196, 196, 0.4);
+    margin-top: 70px;
+    margin-bottom: 100px;
+    border-radius: 50px;
+}
+.signup_image{
+    width: 50%;
+    height: 100%;
+    background-image: url('images/mets13.jpg');
+    background-size: cover;
+    border-radius: 50px;
+}
+::placeholder{
+    color: rgba(0, 0, 0, 0.7);
+}
+.signup_form{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 50px;
+}
+.signup_form h1{
+    font-size: 2em;
+}
+.signup_form p{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.signup_form input{
+    height: 60px;
+    width: 500px;
+    background-color: rgba(196, 196, 196, 0.3);
+    border-radius: 20px;
+    border: black solid 3px;
+    font-size: 1em;
+    text-align: center;
+}
+.signup_form button{
+    height: 60px;
+    width: 250px;
+    background-color: rgba(196, 196, 196, 0.5);
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+span{
+    color: rgb(0, 255, 219);
+}
+
+/*PAGE RECIPES*/
+.container_receipe{
+    margin: auto;
+    width: 90%;
+    height: 320px;
+    background-color: rgba(196, 196, 196, 0.5);
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 90px;
+    align-items: center;
+    padding: 5px 40px;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+.recipe_img{
+    max-width: 300px;
+}
+.imgBorder{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.recipe_description li{
+    font-size: 0.8em;
+}
+.recipe_description h1{
+    font-size: 1.5em;
+}
+.recipe_description h2{
+    font-size: 1.5em;
+}
+.recipe_description p{
+    font-size: 1em;
+}
+.recipe_description{
+    width: 70%;
+}
+
+/*PAGE PRESENTATION*/
+.container_description{
+    background-color: rgba(196, 196, 196, 0.8);
+    width: 80%;
+    height: 100%;
+    margin: 100px auto;
+    padding: 2px 40px;
+    border-radius: 50px;
+}
+.container_description--title{
+    color: white;
+    text-align: center;
+}
+.container_description--text{
+    font-size: 1.2em;
+    text-align: justify;
+    font-weight: 500;
+    line-height: 200%;
+}
+.container-diaporama{
+    width: 100%;
+    margin: auto;
+}
+
+/*PAGE MATERIELS ET USTENSILES*/
+
+.container__materiels{
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    column-gap: 20px;
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.container__materiels--img{
+    height: 200px;
+    width: 200px;
+}
+.container__materiels--display{
+    text-align: center;
+    width: 40%;
+    
+}
+.container__materiels--text{
+    width: 60%;
+    height: 90px;
+    padding: 10px;
+    background-color: rgba(196, 196, 196, 0.7);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.container__materiels--display--title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(196, 196, 196, 0.6);
+    height: 70px;
+    border-radius: 20px;
+    width: 400px;
+}
+
+/*RESPONSIVE*/
+
+/*TABLETTE*/
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+    /*INDEX*/
+    /*PAGE RESTANT*/
+#container_slogan{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 200px;
+    height: 450px;
+    }
+    #end_page{
+        background-color: rgb(32, 26, 26);
+        margin: 0;
+        min-height: 500px;
+    }
+/*SECTION DEINITION*/
+.container_definition{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 100%;
+}
+.container_definition a{
+    color: white;
+    text-decoration: none;
+}
+.definition1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/mets14.jpg');
+    background-size: cover;
+    height: 250px;
+    width: 400px;
+    border-radius: 50px;
+    border: black solid 5px;
+}
+.definition2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/mets1.jpg');
+    background-size: cover;
+    height: 250px;
+    width: 400px;
+    border-radius: 50px;
+    border: black solid 5px;
+}
+.definition1_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(196, 196, 196, 0.7);
+    border-radius: 50px;
+    height: 80px;
+    width: 420px;
+    text-align: center;
+}
+.definition1_title h1{
+    color: black;
+    font-size: 1.8em;
+}
+.definition2_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(196, 196, 196, 0.6);
+    border-radius: 50px;
+    height: 80px;
+    width: 420px;
+    text-align: center;
+}
+.definition2_title h1{
+    color: black;
+    font-size: 2em;
+}
+/*SECTION AUTHOR DESCRIPTION*/
+.container_auth_descrip{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 20px;
+    height: 450px;
+    width: 100%;
+}
+.author_description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 600px;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Aleo', serif;
+}
+.author_image{
+    height: 300px;
+    width: 300px;
+    background-image: url('images/thierry1.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    background-position-x: -50px;
+}
+
+/*PAGE SIGNIN*/
+.signin_container{
+    display: flex;
+    width: 80%;
+    height: 800px;
+    margin: auto;
+    background-color: rgba(196, 196, 196, 0.4);
+    margin-top: 50px;
+    margin-bottom: 80px;
+    border-radius: 50px;
+}
+.signin_form{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 50px;
+}
+.signin_form h1{
+    font-size: 1.5em;
+}
+.signin_form p{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.signin_form input{
+    height: 40px;
+    width: 380px;
+    background-color: rgba(196, 196, 196, 0.3);
+    border-radius: 20px;
+    border: black solid 3px;
+    font-size: 0.8em;
+    text-align: center
+}
+.signin_form button{
+    height: 40px;
+    width: 170px;
+    background-color: rgba(196, 196, 196, 0.5);
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+span a{
+    color: rgb(0, 255, 219);
+    text-decoration: none;
+}
+
+/*PAGE SIGNUP*/
+.signup_form{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 50px;
+}
+.signup_form h1{
+    font-size: 1.5em;
+}
+.signup_form p{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.signup_form input{
+    height: 40px;
+    width: 400px;
+    background-color: rgba(196, 196, 196, 0.3);
+    border-radius: 20px;
+    border: black solid 3px;
+    font-size: 1em;
+    text-align: center;
+}
+.signup_form button{
+    height: 40px;
+    width: 150px;
+    background-color: rgba(196, 196, 196, 0.5);
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+/*PAGE RECIPES*/
+.container_receipe{
+    margin: auto;
+    width: 90%;
+    height: 320px;
+    background-color: rgba(196, 196, 196, 0.5);
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    column-gap: 10px;
+    align-items: center;
+    padding: 5px 20px;
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+.recipe_img{
+    max-width: 300px;
+}
+.imgBorder{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.recipe_description li{
+    font-size: 0.8em;
+}
+.recipe_description h1{
+    font-size: 1.5em;
+}
+.recipe_description h2{
+    font-size: 1.5em;
+}
+.recipe_description p{
+    font-size: 0.8em;
+}
+.recipe_description{
+    width: 70%;
+}
+}
+
+/*SMARTPHONE*/
+@media screen and (min-width: 812px) and (max-width:1024px){
+        /*INDEX*/
+    /*PAGE RESTANT*/
+#container_slogan{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 200px;
+    height: 450px;
+    }
+    #end_page{
+        background-color: rgb(32, 26, 26);
+        margin: 0;
+        min-height: 500px;
+    }
+/*SECTION DEINITION*/
+.container_definition{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 100%;
+}
+.container_definition a{
+    color: white;
+    text-decoration: none;
+}
+.definition1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/mets14.jpg');
+    background-size: cover;
+    height: 250px;
+    width: 400px;
+    border-radius: 50px;
+    border: black solid 5px;
+}
+.definition2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/mets1.jpg');
+    background-size: cover;
+    height: 250px;
+    width: 400px;
+    border-radius: 50px;
+    border: black solid 5px;
+}
+.definition1_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(196, 196, 196, 0.7);
+    border-radius: 50px;
+    height: 80px;
+    width: 320px;
+    text-align: center;
+}
+.definition1_title h1{
+    color: black;
+    font-size: 1.8em;
+}
+.definition2_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(196, 196, 196, 0.6);
+    border-radius: 50px;
+    height: 80px;
+    width: 320px;
+    text-align: center;
+}
+.definition2_title h1{
+    color: black;
+    font-size: 2em;
+}
+/*SECTION AUTHOR DESCRIPTION*/
+.container_auth_descrip{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 20px;
+    height: 450px;
+    width: 100%;
+}
+.author_description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 600px;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Aleo', serif;
+}
+.author_image{
+    height: 300px;
+    width: 300px;
+    background-image: url('images/thierry1.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    background-position-x: -50px;
+}
+
+/*PAGE SIGNIN*/
+.signin_container{
+    display: flex;
+    width: 80%;
+    height: 700px;
+    margin: auto;
+    background-color: rgba(196, 196, 196, 0.4);
+    margin-top: 50px;
+    margin-bottom: 80px;
+    border-radius: 50px;
+}
+.signin_form{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 50px;
+}
+.signin_form h1{
+    font-size: 1.5em;
+}
+.signin_form p{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.signin_form input{
+    height: 40px;
+    width: 280px;
+    background-color: rgba(196, 196, 196, 0.3);
+    border-radius: 20px;
+    border: black solid 3px;
+    font-size: 0.8em;
+    text-align: center
+}
+.signin_form button{
+    height: 40px;
+    width: 150px;
+    background-color: rgba(196, 196, 196, 0.5);
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+span a{
+    color: rgb(0, 255, 219);
+    text-decoration: none;
+}
+
+/*PAGE SIGNUP*/
+.signup_form{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 50px;
+}
+.signup_form h1{
+    font-size: 1.5em;
+}
+.signup_form p{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.signup_form input{
+    height: 40px;
+    width: 330px;
+    background-color: rgba(196, 196, 196, 0.3);
+    border-radius: 20px;
+    border: black solid 3px;
+    font-size: 1em;
+    text-align: center;
+}
+.signup_form button{
+    height: 40px;
+    width: 150px;
+    background-color: rgba(196, 196, 196, 0.5);
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+/*PAGE RECIPES*/
+.container_receipe{
+    margin: auto;
+    width: 90%;
+    height: 280px;
+    background-color: rgba(196, 196, 196, 0.5);
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    column-gap: 10px;
+    align-items: center;
+    padding: 5px 20px;
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+.recipe_img{
+    max-width: 300px;
+}
+.imgBorder{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.recipe_description li{
+    font-size: 0.7em;
+}
+.recipe_description h1{
+    font-size: 1.3em;
+}
+.recipe_description h2{
+    font-size: 1.3em;
+}
+.recipe_description p{
+    font-size: 0.7em;
+}
+.recipe_description{
+    width: 70%;
+}
+}
+
+/*MOBILE*/
+@media screen and (min-width: 750px) and (max-width: 812px){
+            /*INDEX*/
+            header{
+                display: block;
+            }
+            .menu{
+                width: 100px;
+                height: 30px;
+                background-color: rgba(196, 196, 196, 0.7);
+                border-radius: 50px;
+                padding-top: 10px;
+                font-size: 1.5em;
+                font-weight: bold;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+    /*PAGE RESTANT*/
+    #slogan{
+        background-color: rgba(196, 196, 196, 0.7);
+        width: 250px;
+        border-radius: 50px;
+    }
+    #slogan h2{
+        font-size: 1.3em;
+        color: black;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #slogan p{
+        font-size: 0.8em;
+        color: black;
+        text-align: center;
+        font-style: italic;
+        margin-top: 0;
+        font-family: 'Aleo', serif;
+    }
+#container_slogan{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 70px;
+    height: 150px;
+    }
+    #end_page{
+        background-color: rgb(32, 26, 26);
+        margin: 0;
+        min-height: 500px;
+    }
+/*SECTION DEINITION*/
+.container_definition{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 100%;
+}
+.container_definition a{
+    color: white;
+    text-decoration: none;
+}
+.definition1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/mets14.jpg');
+    background-size: cover;
+    height: 250px;
+    width: 400px;
+    border-radius: 50px;
+    border: black solid 5px;
+}
+.definition2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/mets1.jpg');
+    background-size: cover;
+    height: 250px;
+    width: 400px;
+    border-radius: 50px;
+    border: black solid 5px;
+}
+.definition1_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(196, 196, 196, 0.7);
+    border-radius: 50px;
+    height: 80px;
+    width: 320px;
+    text-align: center;
+}
+.definition1_title h1{
+    color: black;
+    font-size: 1.8em;
+}
+.definition2_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(196, 196, 196, 0.6);
+    border-radius: 50px;
+    height: 80px;
+    width: 320px;
+    text-align: center;
+}
+.definition2_title h1{
+    color: black;
+    font-size: 2em;
+}
+/*SECTION AUTHOR DESCRIPTION*/
+.container_auth_descrip{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 20px;
+    height: 450px;
+    width: 100%;
+}
+.author_description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    font-family: 'Aleo', serif;
+}
+.author_image{
+    height: 200px;
+    width: 200px;
+    background-image: url('images/thierry1.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    background-position-x: -40px;
+}
+
+/*PAGE SIGNIN*/
+.signin_container{
+    display: flex;
+    width: 95%;
+    height: 600px;
+    margin: auto;
+    background-color: rgba(196, 196, 196, 0.4);
+    margin-top: 30px;
+    margin-bottom: 80px;
+    border-radius: 50px;
+}
+.signin_image{
+    width: 60%;
+    height: 100%;
+    background-image: url('images/mets6.jpg');
+    background-size: cover;
+    border-radius: 50px;
+}
+.signin_form{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 20px;
+}
+.signin_form h1{
+    font-size: 1.2em;
+}
+.signin_form h2{
+    font-size: 1em;
+}
+.signin_form p{
+    text-align: left;
+    margin-left: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.signin_form input{
+    height: 40px;
+    width: 270px;
+    background-color: rgba(196, 196, 196, 0.3);
+    border-radius: 20px;
+    border: black solid 3px;
+    font-size: 0.7em;
+    text-align: center
+}
+.signin_form button{
+    height: 30px;
+    width: 120px;
+    background-color: rgba(196, 196, 196, 0.5);
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+span a{
+    color: rgb(0, 255, 219);
+    text-decoration: none;
+}
+
+/*PAGE SIGNUP*/
+.signup_container{
+    display: flex;
+    width: 95%;
+    height: 700px;
+    margin: auto;
+    background-color: rgba(196, 196, 196, 0.4);
+    margin-top: 70px;
+    margin-bottom: 100px;
+    border-radius: 50px;
+}
+.signup_image{
+    width: 60%;
+    height: 100%;
+    background-image: url('images/mets13.jpg');
+    background-size: cover;
+    border-radius: 50px;
+}
+.signup_form{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 20px;
+}
+.signup_form h1{
+    font-size: 1.5em;
+}
+.signup_form p{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.signup_form input{
+    height: 40px;
+    width: 250px;
+    background-color: rgba(196, 196, 196, 0.3);
+    border-radius: 20px;
+    border: black solid 3px;
+    font-size: 0.9em;
+    text-align: center;
+}
+.signup_form button{
+    height: 40px;
+    width: 110px;
+    background-color: rgba(196, 196, 196, 0.5);
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+/*PAGE RECIPES*/
+.container_receipe{
+    margin: auto;
+    width: 90%;
+    height: 280px;
+    background-color: rgba(196, 196, 196, 0.5);
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    column-gap: 10px;
+    align-items: center;
+    padding: 5px 20px;
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+.recipe_img{
+    max-width: 200px;
+}
+.imgBorder{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.recipe_description li{
+    font-size: 0.7em;
+}
+.recipe_description h1{
+    font-size: 1.3em;
+}
+.recipe_description h2{
+    font-size: 1.3em;
+}
+.recipe_description p{
+    font-size: 0.7em;
+}
+.recipe_description{
+    width: 70%;
+}
+}
+
+/*MOBILE 2*/
+@media screen and (min-width: 670px) and (max-width: 750px){
+/*INDEX*/
+header{
+    display: block;
+}
+.menu{
+    width: 100px;
+    height: 30px;
+    background-color: rgba(196, 196, 196, 0.7);
+    border-radius: 50px;
+    padding-top: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+    /*PAGE RESTANT*/
+    #container_slogan{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 50px;
+        height: 450px;
+        }
+        #end_page{
+            background-color: rgb(32, 26, 26);
+            margin: 0;
+            min-height: 500px;
+        }
+    /*SECTION DEINITION*/
+    .container_definition{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 600px;
+        width: 100%;
+    }
+    .container_definition a{
+        color: white;
+        text-decoration: none;
+    }
+    .definition1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('images/mets14.jpg');
+        background-size: cover;
+        height: 250px;
+        width: 400px;
+        border-radius: 50px;
+        border: black solid 5px;
+    }
+    .definition2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('images/mets1.jpg');
+        background-size: cover;
+        height: 250px;
+        width: 400px;
+        border-radius: 50px;
+        border: black solid 5px;
+    }
+    .definition1_title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(196, 196, 196, 0.7);
+        border-radius: 50px;
+        height: 80px;
+        width: 320px;
+        text-align: center;
+    }
+    .definition1_title h1{
+        color: black;
+        font-size: 1.8em;
+    }
+    .definition2_title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(196, 196, 196, 0.6);
+        border-radius: 50px;
+        height: 80px;
+        width: 320px;
+        text-align: center;
+    }
+    .definition2_title h1{
+        color: black;
+        font-size: 2em;
+    }
+    /*SECTION AUTHOR DESCRIPTION*/
+    .container_auth_descrip{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 20px;
+        height: 450px;
+        width: 100%;
+    }
+    .author_description{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        width: 300px;
+        color: white;
+        text-align: center;
+        font-size: 0.8em;
+        font-family: 'Aleo', serif;
+    }
+    .author_image{
+        height: 200px;
+        width: 200px;
+        background-image: url('images/thierry1.jpg');
+        background-size: cover;
+        border-radius: 50%;
+        background-position-x: -40px;
+    }
+/*PAGE SIGNIN*/
+.signin_container{
+    display: flex;
+    width: 95%;
+    height: 600px;
+    margin: auto;
+    background-color: rgba(196, 196, 196, 0.4);
+    margin-top: 30px;
+    margin-bottom: 80px;
+    border-radius: 50px;
+}
+.signin_image{
+    width: 60%;
+    height: 100%;
+    background-image: url('images/mets6.jpg');
+    background-size: cover;
+    border-radius: 50px;
+}
+.signin_form{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 20px;
+}
+.signin_form h1{
+    font-size: 1.2em;
+}
+.signin_form h2{
+    font-size: 1em;
+}
+.signin_form p{
+    text-align: left;
+    margin-left: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.signin_form input{
+    height: 40px;
+    width: 240px;
+    background-color: rgba(196, 196, 196, 0.3);
+    border-radius: 20px;
+    border: black solid 3px;
+    font-size: 0.7em;
+    text-align: center
+}
+.signin_form button{
+    height: 30px;
+    width: 120px;
+    background-color: rgba(196, 196, 196, 0.5);
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+span a{
+    color: rgb(0, 255, 219);
+    text-decoration: none;
+}
+
+/*PAGE SIGNUP*/
+.signup_container{
+    display: flex;
+    width: 95%;
+    height: 700px;
+    margin: auto;
+    background-color: rgba(196, 196, 196, 0.4);
+    margin-top: 70px;
+    margin-bottom: 100px;
+    border-radius: 50px;
+}
+.signup_image{
+    width: 60%;
+    height: 100%;
+    background-image: url('images/mets13.jpg');
+    background-size: cover;
+    border-radius: 50px;
+}
+.signup_form{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 20px;
+}
+.signup_form h1{
+    font-size: 1.5em;
+}
+.signup_form p{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.signup_form input{
+    height: 40px;
+    width: 210px;
+    background-color: rgba(196, 196, 196, 0.3);
+    border-radius: 20px;
+    border: black solid 3px;
+    font-size: 0.9em;
+    text-align: center;
+}
+.signup_form button{
+    height: 40px;
+    width: 110px;
+    background-color: rgba(196, 196, 196, 0.5);
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+/*PAGE RECIPES*/
+.container_receipe{
+    margin: auto;
+    width: 95%;
+    height: 300px;
+    background-color: rgba(196, 196, 196, 0.5);
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    column-gap: 10px;
+    align-items: center;
+    padding: 5px 20px;
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+.recipe_img{
+    max-width: 200px;
+}
+.imgBorder{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.recipe_description li{
+    font-size: 0.7em;
+}
+.recipe_description h1{
+    font-size: 1.3em;
+}
+.recipe_description h2{
+    font-size: 1.3em;
+}
+.recipe_description p{
+    font-size: 0.7em;
+}
+.recipe_description{
+    width: 70%;
+}
+}
+
+/*MOBILE 3*/
+
+@media screen and (min-width: 400px) and (max-width: 670px){
+/*INDEX*/
+header{
+    display: block;
+}
+.menu{
+    width: 80px;
+    height: 20px;
+    background-color: rgba(196, 196, 196, 0.7);
+    border-radius: 50px;
+    padding-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+    /*PAGE RESTANT*/
+    #container_slogan{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 50px;
+        height: 450px;
+        }
+        #end_page{
+            background-color: rgb(32, 26, 26);
+            margin: 0;
+            min-height: 500px;
+        }
+    /*SECTION DEINITION*/
+    .container_definition{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 600px;
+        width: 100%;
+    }
+    .container_definition a{
+        color: white;
+        text-decoration: none;
+    }
+    .definition1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('images/mets14.jpg');
+        background-size: cover;
+        height: 250px;
+        width: 400px;
+        border-radius: 50px;
+        border: black solid 5px;
+    }
+    .definition2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('images/mets1.jpg');
+        background-size: cover;
+        height: 250px;
+        width: 400px;
+        border-radius: 50px;
+        border: black solid 5px;
+    }
+    .definition1_title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(196, 196, 196, 0.7);
+        border-radius: 50px;
+        height: 80px;
+        width: 320px;
+        text-align: center;
+    }
+    .definition1_title h1{
+        color: black;
+        font-size: 1.8em;
+    }
+    .definition2_title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(196, 196, 196, 0.6);
+        border-radius: 50px;
+        height: 80px;
+        width: 320px;
+        text-align: center;
+    }
+    .definition2_title h1{
+        color: black;
+        font-size: 2em;
+    }
+    /*SECTION AUTHOR DESCRIPTION*/
+    .container_auth_descrip{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 20px;
+        height: 450px;
+        width: 100%;
+    }
+    .author_description{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        width: 300px;
+        color: white;
+        text-align: center;
+        font-size: 0.8em;
+        font-family: 'Aleo', serif;
+    }
+    .author_image{
+        height: 200px;
+        width: 200px;
+        background-image: url('images/thierry1.jpg');
+        background-size: cover;
+        border-radius: 50%;
+        background-position-x: -40px;
+    }
+/*PAGE SIGNIN*/
+.signin_container{
+    display: flex;
+    width: 95%;
+    height: 600px;
+    margin: auto;
+    background-color: rgba(196, 196, 196, 0.4);
+    margin-top: 30px;
+    margin-bottom: 80px;
+    border-radius: 50px;
+}
+.signin_image{
+    width: 60%;
+    height: 100%;
+    background-image: url('images/mets6.jpg');
+    background-size: cover;
+    border-radius: 50px;
+}
+.signin_form{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 20px;
+}
+.signin_form h1{
+    font-size: 1.2em;
+}
+.signin_form h2{
+    font-size: 1em;
+}
+.signin_form p{
+    text-align: left;
+    margin-left: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.signin_form input{
+    height: 40px;
+    width: 170px;
+    background-color: rgba(196, 196, 196, 0.3);
+    border-radius: 20px;
+    border: black solid 3px;
+    font-size: 0.7em;
+    text-align: center
+}
+.signin_form button{
+    height: 30px;
+    width: 120px;
+    background-color: rgba(196, 196, 196, 0.5);
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+span a{
+    color: rgb(0, 255, 219);
+    text-decoration: none;
+}
+
+/*PAGE SIGNUP*/
+.signup_container{
+    display: flex;
+    width: 95%;
+    height: 700px;
+    margin: auto;
+    background-color: rgba(196, 196, 196, 0.4);
+    margin-top: 70px;
+    margin-bottom: 100px;
+    border-radius: 50px;
+}
+.signup_image{
+    width: 60%;
+    height: 100%;
+    background-image: url('images/mets13.jpg');
+    background-size: cover;
+    border-radius: 50px;
+}
+.signup_form{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 20px;
+}
+.signup_form h1{
+    font-size: 1.5em;
+}
+.signup_form p{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.signup_form input{
+    height: 40px;
+    width: 150px;
+    background-color: rgba(196, 196, 196, 0.3);
+    border-radius: 20px;
+    border: black solid 3px;
+    font-size: 0.9em;
+    text-align: center;
+}
+.signup_form button{
+    height: 40px;
+    width: 110px;
+    background-color: rgba(196, 196, 196, 0.5);
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+/*PAGE RECIPES*/
+.container_receipe{
+    margin: auto;
+    width: 95%;
+    height: 290px;
+    background-color: rgba(196, 196, 196, 0.5);
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    column-gap: 10px;
+    align-items: center;
+    padding: 5px 20px;
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+.recipe_img{
+    max-width: 200px;
+}
+.imgBorder{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.recipe_description li{
+    font-size: 0.7em;
+}
+.recipe_description h1{
+    font-size: 1em;
+}
+.recipe_description h2{
+    font-size: 1em;
+}
+.recipe_description p{
+    font-size: 0.7em;
+}
+.recipe_description{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+}
